@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elementoTempo {
+    font-size: 150px;
+    margin-bottom: 20px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.botoes button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
