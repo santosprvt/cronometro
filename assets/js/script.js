@@ -24,8 +24,6 @@ function cronometro() {
 
     btnIniciar.addEventListener("click", function () {
         clearInterval(cronometro);
-        segundos = 0;
-        elementoTempo.innerHTML = "00:00:00";
         iniciaTemporizador();
     });
 
